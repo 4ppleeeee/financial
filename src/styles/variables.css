@@ -1,0 +1,26 @@
+:root {
+  /* Core Palette */
+  --bg-primary: #050505;
+  --bg-secondary: #0a0a0a;
+  --text-primary: #ffffff;
+  --text-secondary: #a1a1aa;
+  
+  /* Brand Colors */
+  --brand-primary: #3b82f6; /* Blue 500 */
+  --brand-accent: #6366f1; /* Indigo 500 */
+  --brand-glow: rgba(59, 130, 246, 0.5);
+
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-blur: 12px;
+
+  /* Spacing */
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 48px;
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
