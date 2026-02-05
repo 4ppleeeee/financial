@@ -8,7 +8,7 @@ function App() {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    background: 'radial-gradient(circle at 50% 0%, #1e1b4b 0%, var(--bg-primary) 70%)',
+    background: 'var(--bg-primary)',
     padding: '48px 20px',
   };
 
@@ -24,7 +24,7 @@ function App() {
           display: 'inline-block', 
           padding: '6px 12px', 
           borderRadius: '99px', 
-          background: 'rgba(59, 130, 246, 0.1)', 
+          background: 'var(--brand-surface)', 
           color: 'var(--brand-primary)',
           fontSize: '0.875rem',
           fontWeight: 600,
@@ -33,19 +33,16 @@ function App() {
           Financial Pro 2.0
         </div>
         <h1 style={{ 
-          fontSize: '3rem', 
-          fontWeight: 700, 
+          fontSize: '2.5rem', 
+          fontWeight: 800, 
           letterSpacing: '-0.02em',
-          background: 'linear-gradient(to right, #fff, #94a3b8)',
-          backgroundClip: 'text',
-          WebkitBackgroundClip: 'text',
-          color: 'transparent',
+          color: 'var(--text-primary)',
           marginBottom: '16px'
         }}>
           买房 vs 租房 投资回报分析
         </h1>
         <p style={{ color: 'var(--text-secondary)', fontSize: '1.125rem', maxWidth: '600px', margin: '0 auto' }}>
-          可视化分析房产价格波动 (y) 和租售比 (b) 对长期财富积累的影响。
+          基于全新的三态模型 (p1/p2/p3)，助您做出更理性的资产配置决策。
         </p>
       </header>
       

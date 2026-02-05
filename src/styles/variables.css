@@ -1,19 +1,22 @@
 :root {
-  /* Core Palette */
-  --bg-primary: #050505;
-  --bg-secondary: #0a0a0a;
-  --text-primary: #ffffff;
-  --text-secondary: #a1a1aa;
+  /* Core Palette (Material 3 Light) */
+  --bg-primary: #F9FAFB; /* Gray 50 */
+  --bg-secondary: #FFFFFF; /* White */
+  --text-primary: #1F2937; /* Gray 900 */
+  --text-secondary: #6B7280; /* Gray 500 */
   
   /* Brand Colors */
-  --brand-primary: #3b82f6; /* Blue 500 */
-  --brand-accent: #6366f1; /* Indigo 500 */
-  --brand-glow: rgba(59, 130, 246, 0.5);
+  --brand-primary: #1e40af; /* Deep Blue 800 */
+  --brand-accent: #3b82f6; /* Blue 500 */
+  --brand-surface: #EFF6FF; /* Blue 50 */
 
-  /* Glassmorphism */
-  --glass-bg: rgba(255, 255, 255, 0.03);
-  --glass-border: rgba(255, 255, 255, 0.08);
-  --glass-blur: 12px;
+  /* UI Elements */
+  --card-bg: #FFFFFF;
+  --card-border: #E5E7EB; /* Gray 200 */
+  --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --input-bg: #FFFFFF;
+  --input-border: #D1D5DB; /* Gray 300 */
+  --input-focus: #1e40af;
 
   /* Spacing */
   --space-sm: 8px;
