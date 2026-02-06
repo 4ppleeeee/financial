@@ -1,0 +1,144 @@
+.index {
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+  padding: 16px; 
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-bottom: 40px;
+}
+
+/* Card Common Style */
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+}
+
+/* Input Panel */
+.input-panel {
+  padding: 24px;
+}
+
+.section-title {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+}
+
+.divider {
+  height: 1px;
+  background: var(--card-border);
+  margin: 16px 0;
+}
+
+/* Input Group */
+.input-group {
+  margin-bottom: 16px;
+}
+
+.input-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  background: var(--input-bg);
+  border: 1px solid var(--input-border);
+  border-radius: 8px;
+  padding: 8px 12px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+}
+
+.input-field {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-primary);
+  height: 24px;
+  min-height: 24px; 
+}
+
+.input-suffix {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-left: 8px;
+}
+
+/* Results Grid */
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.result-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: var(--card-shadow);
+  position: relative;
+  overflow: hidden;
+}
+
+.result-card.primary {
+  grid-column: span 2;
+  background: #F0F9FF;
+  border-color: var(--brand-accent) !important;
+}
+
+.primary-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+}
+
+.card-title {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+
+.card-value {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Chart Card */
+.chart-card {
+  padding: 16px;
+  min-height: 350px;
+}
+
+.chart-footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.chart-hint {
+  font-size: 14px;
+  color: #10B981;
+  font-weight: 600;
+}

@@ -1,0 +1,15 @@
+{
+  "miniprogramRoot": "./dist",
+  "projectname": "financial-mini",
+  "description": "帮你权衡租房和购房的性价比",
+  "appid": "wxbe7e8f0ac4b733a4",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": false,
+    "compileHotReLoad": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}
